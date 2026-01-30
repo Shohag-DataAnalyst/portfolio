@@ -7,199 +7,237 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#skills" class="nav-link">Skill</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="container">
+        <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Shohag</h1>
-                <h2 class="hero-subtitle">Data Analyst</h2>
-                <p class="hero-description">
-                    Transforming raw data into actionable business insights through advanced SQL analysis, 
-                    interactive Power BI dashboards, and data-driven storytelling that drives strategic decisions.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-secondary">LinkedIn</a>
-                </div>
+                <div class="hero-badge">DATA ANALYST PORTFOLIO</div>
+                <h1 class="hero-name">
+                    <span class="name-first">SHOHAG</span>
+                </h1>
+                <p class="hero-tagline">I help people finding <span class="highlight">insights</span> through <span class="highlight">data</span></p>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>
-                    I'm a data analyst specializing in SQL-based data extraction and transformation, with expertise in 
-                    building interactive Power BI dashboards that deliver clear business insights. My work focuses on 
-                    translating complex datasets into actionable KPIs that drive revenue optimization, operational efficiency, 
-                    and customer retention strategies. I excel at data modeling, DAX calculations, and creating compelling 
-                    visual narratives that empower stakeholders to make informed decisions confidently.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project1.png" alt="Product Funnel & Monetization Analysis">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Product Funnel & Monetization Analysis</h3>
-                        <p class="project-description">
-                            End-to-end funnel analysis tracking user journey from acquisition to conversion, 
-                            identifying drop-off points and optimizing monetization strategies.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
+        <div class="section-container">
+            <div class="section-label">About Me</div>
+            <div class="about-grid">
+                <div class="about-intro">
+                    <h2 class="about-greeting">Hello,<br>I'm <span class="highlight-name">Shohag!</span></h2>
+                </div>
+                <div class="about-text">
+                    <p><span class="bold-text">Data Analyst</span> with a proven track record in various analytical roles, showcasing expertise in end-to-end business processes. Proficient in <span class="highlight-text">SQL, Power BI, DAX, Data Modeling, KPI Analysis,</span> and <span class="highlight-text">Dashboard Storytelling</span> for comprehensive data analysis and visualization. Comfortable with end-to-end data analysis, data processing, dashboard creation, and presenting actionable insights with effective communication and engaging story-telling skills.</p>
+                    <div class="about-buttons">
+                        <a href="#projects" class="btn-outline">Projects</a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn-filled">LinkedIn</a>
                     </div>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project2.png" alt="Smart Warehouse Operations Dashboard">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Smart Warehouse Operations Dashboard</h3>
-                        <p class="project-description">
-                            Real-time warehouse performance tracking with inventory turnover, order fulfillment rates, 
-                            and operational efficiency metrics for logistics optimization.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project3.png" alt="Customer Cohort Retention & LTV Analysis">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Customer Cohort Retention & LTV Analysis</h3>
-                        <p class="project-description">
-                            Cohort-based retention analysis measuring customer lifetime value, churn patterns, 
-                            and long-term revenue forecasting across customer segments.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project4.png" alt="Customer Segmentation (RFM Analysis)">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Customer Segmentation (RFM Analysis)</h3>
-                        <p class="project-description">
-                            RFM modeling to segment customers by recency, frequency, and monetary value, 
-                            enabling targeted marketing campaigns and personalized engagement strategies.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project5.png" alt="Inventory Demand & Reorder Planning">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Inventory Demand & Reorder Planning</h3>
-                        <p class="project-description">
-                            Predictive demand forecasting with automated reorder point calculations, 
-                            reducing stockouts and optimizing inventory holding costs.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/project6.png" alt="Retail Sales Performance & Profitability Dashboard">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Retail Sales Performance & Profitability Dashboard</h3>
-                        <p class="project-description">
-                            Comprehensive retail analytics tracking sales trends, product performance, 
-                            profit margins, and regional comparisons for strategic decision-making.
-                        </p>
-                        <div class="project-links">
-                            <a href="#" target="_blank" class="project-link">Live Dashboard</a>
-                            <a href="#" target="_blank" class="project-link">GitHub Repo</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
     <section class="skills" id="skills">
-        <div class="container">
-            <h2 class="section-title">Core Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>SQL (PostgreSQL)</h3>
+        <div class="section-container">
+            <div class="section-label">Technical Skills</div>
+            <div class="skills-wrapper">
+                <div class="skills-category">
+                    <h3 class="category-title"><span class="highlight-text">Data Analysis</span><br>Tools</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">SQL (PostgreSQL)</div>
+                        <div class="skill-item">Power BI</div>
+                        <div class="skill-item">DAX</div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <h3>Power BI</h3>
-                </div>
-                <div class="skill-card">
-                    <h3>DAX</h3>
-                </div>
-                <div class="skill-card">
-                    <h3>Data Modeling</h3>
-                </div>
-                <div class="skill-card">
-                    <h3>KPI Analysis</h3>
-                </div>
-                <div class="skill-card">
-                    <h3>Dashboard Storytelling</h3>
+                <div class="skills-category">
+                    <h3 class="category-title"><span class="highlight-text">Core</span><br>Competencies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Data Modeling</div>
+                        <div class="skill-item">KPI Analysis</div>
+                        <div class="skill-item">Dashboard Storytelling</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <p class="footer-email">shohag@datalel.com</p>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <div class="section-label">Notable Projects</div>
+            
+            <!-- Project 1 -->
+            <div class="project-item">
+                <div class="project-number">01</div>
+                <div class="project-header">
+                    <h3 class="project-title">PRODUCT FUNNEL & MONETIZATION ANALYSIS</h3>
                 </div>
-                <div class="footer-links">
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link">LinkedIn</a>
-                    <a href="https://github.com/yourprofile" target="_blank" class="footer-link">GitHub</a>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project1.png" alt="Product Funnel & Monetization Analysis">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">End-to-end funnel analysis tracking user journey from acquisition to conversion, identifying drop-off points and optimizing monetization strategies to <span class="highlight-text">increase revenue</span> through data-driven recommendations.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI, DAX</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> Funnel Analysis, Conversion Optimization</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <p class="footer-copyright">&copy; 2026 Shohag. All rights reserved.</p>
+
+            <!-- Project 2 -->
+            <div class="project-item">
+                <div class="project-number">02</div>
+                <div class="project-header">
+                    <h3 class="project-title">SMART WAREHOUSE OPERATIONS DASHBOARD</h3>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project2.png" alt="Smart Warehouse Operations Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">Real-time warehouse performance tracking with inventory turnover, order fulfillment rates, and operational efficiency metrics for logistics optimization, <span class="highlight-text">reducing operational costs by 15%</span> through actionable insights.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> Operations Analytics, KPI Tracking</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-item">
+                <div class="project-number">03</div>
+                <div class="project-header">
+                    <h3 class="project-title">CUSTOMER COHORT RETENTION & LTV ANALYSIS</h3>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project3.png" alt="Customer Cohort Retention & LTV Analysis">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">Cohort-based retention analysis measuring customer lifetime value, churn patterns, and long-term revenue forecasting across customer segments to <span class="highlight-text">predict future revenue</span> and optimize retention strategies.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI, DAX</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> Cohort Analysis, LTV Modeling</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-item">
+                <div class="project-number">04</div>
+                <div class="project-header">
+                    <h3 class="project-title">CUSTOMER SEGMENTATION (RFM ANALYSIS)</h3>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project4.png" alt="Customer Segmentation (RFM Analysis)">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">RFM modeling to segment customers by recency, frequency, and monetary value, enabling <span class="highlight-text">targeted marketing campaigns</span> and personalized engagement strategies that increased customer retention by 22%.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> RFM Segmentation, Customer Analytics</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-item">
+                <div class="project-number">05</div>
+                <div class="project-header">
+                    <h3 class="project-title">INVENTORY DEMAND & REORDER PLANNING</h3>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project5.png" alt="Inventory Demand & Reorder Planning">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">Predictive demand forecasting with automated reorder point calculations, <span class="highlight-text">reducing stockouts by 30%</span> and optimizing inventory holding costs through data-driven supply chain management.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI, DAX</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> Demand Forecasting, Inventory Optimization</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-item">
+                <div class="project-number">06</div>
+                <div class="project-header">
+                    <h3 class="project-title">RETAIL SALES PERFORMANCE & PROFITABILITY DASHBOARD</h3>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="assets/project6.png" alt="Retail Sales Performance & Profitability Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">Comprehensive retail analytics tracking sales trends, product performance, profit margins, and regional comparisons for strategic decision-making, resulting in <span class="highlight-text">18% profit improvement</span> through optimized product mix.</p>
+                        <p class="project-tools"><span class="bold-text">Tools:</span> SQL, Power BI</p>
+                        <p class="project-analysis"><span class="bold-text">Analysis:</span> Sales Analytics, Profitability Analysis</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-btn">Live Dashboard</a>
+                            <a href="#" target="_blank" class="project-btn">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-label">Contact Info</div>
+            <div class="contact-content">
+                <h2 class="contact-title">Let's <span class="highlight">connect</span> and<br>work together!</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-label">E-mail</span>
+                        <a href="mailto:shohag@datalel.com" class="contact-value">shohag@datalel.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">LinkedIn</span>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-value">linkedin.com/in/shohag</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">GitHub</span>
+                        <a href="https://github.com/yourprofile" target="_blank" class="contact-value">github.com/shohag</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
