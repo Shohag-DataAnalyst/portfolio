@@ -1,187 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shohag | Data Analyst Portfolio</title>
-
-    <meta name="description" content="Shohag – Data Analyst specializing in SQL, Power BI, analytics, and business insights." />
-    <meta name="author" content="Shohag" />
-
-    <!-- Fonts & Icons -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- Tailwind (layout utility only) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Custom CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nura Alam Shohag - Data Analyst Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
-
-<body class="bg-dark text-light font-inter">
-
-<!-- NAVBAR -->
-<header class="fixed top-0 right-0 left-0 z-50 navbar-blur">
-    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-end gap-8 text-sm font-medium">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#skills" class="nav-link">Skill</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
     </nav>
-</header>
 
-<!-- HERO -->
-<section id="home" class="min-h-screen flex items-center">
-    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-        <div>
-            <span class="pill">DATA ANALYST PORTFOLIO</span>
-            <h1 class="hero-name mt-6">
-                Shohag
-            </h1>
-            <p class="hero-tagline mt-6">
-                I turn <span class="accent">data</span> into clear<br>
-                <span class="accent">business insights</span>
-            </p>
-
-            <div class="mt-10 flex gap-4">
-                <a href="#projects" class="btn-primary">View Projects</a>
-                <a href="#contact" class="btn-outline">Contact</a>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">DATA ANALYST PORTFOLIO</div>
+                <h1 class="hero-title">
+                    NURA ALAM<br>
+                    <span class="highlight">SHOHAG</span><br>
+                    <span class="subtitle">I help people finding <span class="highlight">insights</span><br>through <span class="highlight">data</span></span>
+                </h1>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Nura Alam Shohag" class="profile-img">
+                </div>
             </div>
         </div>
+        <div class="scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="#5856d6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </section>
 
-        <div class="flex justify-center">
-            <div class="avatar-ring">
-                <img src="assets/profile.jpg" alt="Shohag">
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="section-label">About Me</div>
+        <div class="container about-container">
+            <div class="about-left">
+                <h2 class="about-title">Hello,<br>I'm <span class="highlight">Shohag!</span></h2>
+            </div>
+            <div class="about-right">
+                <p class="about-text">
+                    <span class="highlight">Data Reporting / Analyst</span> and Certified Professional with a proven track record in various analytical roles, showcasing expertise in end-to-end business processes within the <span class="highlight">Analytics Industry</span>. Proficient in <span class="highlight">SQL, Python, Google Sheets, Microsoft Excel, Statistics, Tableau,</span> and <span class="highlight">Google Looker Studio</span> for comprehensive data analysis and visualization. Comfortable with end-to-end data analysis, data processing, dashboard / daily reporting creation, and presenting actionable insights with effective communication and engaging story-telling skills.
+                </p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M8.5 10.5V15.5M11.5 10.5V15.5M11.5 13H14.5V15.5M14.5 10.5V13" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="WhatsApp">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M9 10C9 10 9.5 9 10.5 9C11.5 9 12 9.5 12 10C12 10.5 11.5 11 11 11.5C10.5 12 10 12.5 10 13.5M10 15V15.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Email">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M7 9L12 12L17 9M7 9V15H17V9" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="about-buttons">
+                    <a href="#projects" class="btn btn-primary">Projects</a>
+                    <a href="#" class="btn btn-secondary">Download CV</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20">
-        <div>
-            <h2 class="section-title">Hello,<br>I’m <span class="accent">Shohag</span></h2>
-        </div>
-
-        <div class="text-muted leading-relaxed">
-            <p>
-                Data Analyst with strong experience in <span class="accent">SQL, Power BI, DAX, and data modeling</span>.
-                I focus on turning raw data into dashboards that help teams make confident decisions.
-            </p>
-
-            <p class="mt-6">
-                My work emphasizes clean data models, meaningful KPIs, and storytelling through visuals —
-                not just charts, but insight.
-            </p>
-
-            <div class="mt-10 flex items-center gap-6">
-                <a href="https://linkedin.com" target="_blank" class="icon-btn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:shohag@datalel.com" class="icon-btn"><i class="fas fa-envelope"></i></a>
-                <a href="#projects" class="btn-outline">Projects</a>
-                <a href="assets/Shohag_Resume.pdf" class="btn-primary" download>Download CV</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section bg-soft">
-    <div class="max-w-7xl mx-auto px-6">
-        <h2 class="section-label">Technical Skills</h2>
-
-        <div class="grid md:grid-cols-4 gap-12 mt-16">
-            <div>
-                <h3>Programming</h3>
-                <ul>
-                    <li>SQL</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Data Tools</h3>
-                <ul>
-                    <li>Power BI</li>
-                    <li>PostgreSQL</li>
-                    <li>Excel</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Visualization</h3>
-                <ul>
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Methods</h3>
-                <ul>
-                    <li>EDA</li>
-                    <li>Cohort Analysis</li>
-                    <li>Segmentation</li>
-                    <li>A/B Testing</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="section">
-    <div class="max-w-7xl mx-auto px-6">
-        <h2 class="section-label">Notable Projects</h2>
-
-        <div class="project mt-20">
-            <div class="project-number">01</div>
-            <h3 class="project-title">Retail Sales Performance Dashboard</h3>
-
-            <div class="grid md:grid-cols-2 gap-12 mt-8">
-                <img src="assets/project1.png" class="project-img">
-
-                <div class="text-muted">
-                    <p>
-                        Built a full sales analytics dashboard identifying
-                        <span class="accent">18% profit improvement</span> through product mix optimization.
-                    </p>
-
-                    <p class="mt-4">
-                        <strong>Tools:</strong> SQL, Power BI<br>
-                        <strong>Analysis:</strong> KPI tracking, trend analysis
-                    </p>
-
-                    <div class="mt-6 flex gap-4">
-                        <a href="#" class="btn-outline">Live Dashboard</a>
-                        <a href="#" class="btn-outline">GitHub</a>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M7 8h10M7 12h10M7 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Analytic Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span>Microsoft Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M3 9h18M9 3v18" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span>Google Sheet</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 3v18h18V3H3zm16 16H5V5h14v14z" fill="currentColor"/>
+                                    <path d="M7 7h4v4H7V7zm0 6h4v4H7v-4zm6-6h4v4h-4V7zm0 6h4v4h-4v-4z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Visualization Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 13h4v8H3v-8zM10 3h4v18h-4V3zM17 8h4v13h-4V8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 21H4.6C4.03995 21 3.75992 21 3.54601 20.891C3.35785 20.7951 3.20487 20.6422 3.10899 20.454C3 20.2401 3 19.9601 3 19.4V3M7 17V11M12 17V7M17 17v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span>Looker Studio</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                    <rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Analytic Methods</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon-text">📊</div>
+                            <span>EDA</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-text">👥</div>
+                            <span>Cohort Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-text">🎯</div>
+                            <span>Segmentation</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-text">📈</div>
+                            <span>Regression</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon-text">⚗️</div>
+                            <span>A/B Testing</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
-</section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Notable Projects</h2>
+            
+            <!-- Project 1 -->
+            <div class="project-item">
+                <div class="project-number">01</div>
+                <h3 class="project-title">SALES ANALYTICS DASHBOARD<br>& REVENUE OPTIMIZATION</h3>
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="Sales Dashboard">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">
+                            An end-to-end analysis to optimize sales performance by implementing predictive analytics and machine learning models. Analyzed customer purchasing patterns, identified key revenue drivers, and developed automated dashboards for real-time monitoring. This project resulted in a <span class="highlight">25% increase in sales efficiency</span> and <span class="highlight">$500K additional revenue</span> in the first quarter.
+                        </p>
+                        <div class="project-meta">
+                            <p><strong>Tools:</strong> Python, Power BI, SQL</p>
+                            <p><strong>Analysis:</strong> EDA, Predictive Modeling, Time Series</p>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Dashboard</a>
+                            <a href="#" class="btn btn-secondary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<!-- CONTACT -->
-<section id="contact" class="section bg-soft">
-    <div class="max-w-7xl mx-auto px-6 text-center">
-        <h2 class="contact-title">
-            Let’s <span class="accent">connect</span> and work together
-        </h2>
+            <!-- Project 2 -->
+            <div class="project-item">
+                <div class="project-number">02</div>
+                <h3 class="project-title">CUSTOMER SEGMENTATION<br>& RETENTION STRATEGY</h3>
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" alt="Customer Analytics">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">
+                            A comprehensive customer analysis project using RFM segmentation and clustering algorithms to identify high-value customer segments. Developed targeted retention strategies for each segment, implemented A/B testing for campaign optimization. The initiative resulted in <span class="highlight">18% improvement in customer retention</span> and <span class="highlight">32% increase in customer lifetime value</span>.
+                        </p>
+                        <div class="project-meta">
+                            <p><strong>Tools:</strong> Python, Tableau, Google Sheets</p>
+                            <p><strong>Analysis:</strong> RFM Segmentation, K-Means Clustering, Cohort Analysis</p>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Dashboard</a>
+                            <a href="#" class="btn btn-secondary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="mt-12 space-y-6">
-            <p>Email: <a href="mailto:shohag@datalel.com" class="accent">shohag@datalel.com</a></p>
-            <p>LinkedIn: <a href="#" class="accent">linkedin.com/in/shohag</a></p>
+            <!-- Project 3 -->
+            <div class="project-item">
+                <div class="project-number">03</div>
+                <h3 class="project-title">MARKETING CAMPAIGN<br>A/B TESTING & OPTIMIZATION</h3>
+                <div class="project-content">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=600&fit=crop" alt="Marketing Analytics">
+                    </div>
+                    <div class="project-details">
+                        <p class="project-description">
+                            Statistical analysis of marketing campaigns to determine the most effective strategies. Conducted rigorous A/B testing using ANOVA and post-hoc tests across multiple channels and customer segments. Identified winning campaigns and optimized budget allocation. Results showed <span class="highlight">45% improvement in ROI</span> and <span class="highlight">$300K cost savings</span> annually.
+                        </p>
+                        <div class="project-meta">
+                            <p><strong>Tools:</strong> Python, Google Sheets, Looker Studio</p>
+                            <p><strong>Analysis:</strong> A/B Testing, ANOVA, Statistical Testing</p>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">Live Dashboard</a>
+                            <a href="#" class="btn btn-secondary">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<footer class="py-10 text-center text-muted">
-    © 2026 Shohag — Data Analyst
-</footer>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="contact-title">Let's connect and work together!</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3 class="contact-label">LinkedIn</h3>
+                    <a href="#" class="contact-link">linkedin.com/in/nuraalamshohag</a>
+                    <div class="contact-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M8.5 10.5V15.5M11.5 10.5V15.5M11.5 13H14.5V15.5M14.5 10.5V13" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-label">Phone (Whatsapp)</h3>
+                    <a href="#" class="contact-link">+880 XXX XXX XXXX</a>
+                    <div class="contact-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M9 10C9 10 9.5 9 10.5 9C11.5 9 12 9.5 12 10C12 10.5 11.5 11 11 11.5C10.5 12 10 12.5 10 13.5M10 15V15.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <h3 class="contact-label">E-mail</h3>
+                    <a href="#" class="contact-link">shohag@example.com</a>
+                    <div class="contact-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="11" stroke="#fff" stroke-width="2"/>
+                            <path d="M7 9L12 12L17 9M7 9V15H17V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Nura Alam Shohag. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar background on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>
