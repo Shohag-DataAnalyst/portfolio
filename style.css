@@ -42,12 +42,11 @@ body {
     padding: 20px 50px; 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     box-sizing: border-box;
 }
 
 .logo-img {
-    height: 45px; 
+    height: 65px; 
     width: auto;   
     object-fit: contain;
     background: transparent;
