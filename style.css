@@ -32,18 +32,18 @@ body {
     z-index: 1000;
     transition: background-color 0.3s ease;
     box-sizing: border-box;
-    justify-content: center;
+    display: flex;
 }
 
 .nav-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto; 
     padding: 20px 50px; 
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .logo-img {
