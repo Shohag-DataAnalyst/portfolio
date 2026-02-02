@@ -48,9 +48,17 @@ body {
 }
 
 .logo-img {
-    height: 100px;
-    width: auto;
-    display: block;
+    height: 60px; 
+    width: auto;   
+    object-fit: contain;
+    padding: 5px 0; 
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    min-width: 150px;
 }
 
 .navbar.scrolled {
