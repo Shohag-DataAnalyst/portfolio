@@ -48,18 +48,12 @@ body {
 }
 
 .logo-img {
-    height: 200px; 
+    height: 100px; 
     width: auto;   
     object-fit: contain;
-    padding: 5px 0; 
+    background: transparent;
 }
 
-.nav-logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    min-width: 150px;
-}
 
 .navbar.scrolled {
     background-color: rgba(10, 10, 10, 0.95);
