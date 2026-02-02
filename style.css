@@ -43,6 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .logo-img {
@@ -71,7 +72,6 @@ body {
     letter-spacing: 0.5px;
     transition: color 0.3s ease;
     text-transform: capitalize;
-    align-items: left;
 }
 
 .nav-link:hover {
