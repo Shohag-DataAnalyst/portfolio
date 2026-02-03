@@ -22,19 +22,26 @@
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-        <a href="#home" class="nav-logo">
-            <img src="assets/logo-navbar.png" alt="Shohag Logo" class="logo-img">
-        </a>
+            <a href="#home" class="nav-logo">
+                <img src="assets/logo-navbar.png" alt="Shohag Logo" class="logo-img">
+            </a>
 
-        <div class="nav-links">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About Me</a>
-            <a href="#skills" class="nav-link">Skill</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#contact" class="nav-link">Contact</a>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#skills" class="nav-link">Skill</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <!-- Add this button here -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
@@ -441,6 +448,19 @@
         lucide.createIcons();
     </script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script>
+        const menu = document.querySelector('#mobile-menu');
+        const menuLinks = document.querySelector('#nav-links');
+
+        menu.addEventListener('click', function() {
+            menuLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            menuLinks.classList.remove('active');
+        }));
+    </script>
 </body>
 
 </html>
