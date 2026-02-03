@@ -576,53 +576,15 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
-    .hero-container,
-    .about-container,
-    .project-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .profile-circle {
-        width: 300px;
-        height: 300px;
-        margin: 0 auto;
-    }
-
-    .navbar {
-        padding: 20px 30px;
-    }
-
-    .nav-links {
-        gap: 15px;
-    }
-
-    .nav-link {
-        font-size: 12px;
-    }
-}
-
 @media (max-width: 768px) {
+    /* Layout & Spacing */
     .container {
         padding: 0 20px;
     }
 
-    .hero-section,
-    .about-section,
-    .skills-section,
-    .projects-section,
-    .contact-section {
-        padding: 80px 0;
-    }
-
-    .navbar {
-        padding: 15px 20px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        gap: 10px;
+    .hero-section, .about-section, .skills-section, 
+    .projects-section, .contact-section {
+        padding: 60px 0; /* Reduced padding for smaller screens */
     }
 
     .profile-circle {
@@ -630,75 +592,50 @@ body {
         height: 250px;
     }
 
-    .skills-grid {
+    .skills-grid, .contact-grid {
         grid-template-columns: 1fr;
-    }
-
-    .project-number {
-        font-size: 60px;
-        top: -20px;
-    }
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
     }
 
     .btn {
         width: 100%;
         text-align: center;
     }
-}
 
-@media (max-width: 768px) {
-    .nav-container {
-        padding: 10px 15px; 
-        flex-wrap: nowrap;
-    }
-
-    .logo-img {
-        height: 35px; 
-    }
-
-    .nav-links {
-        gap: 10px; 
-    }
-
-    .nav-link {
-        font-size: 11px; 
-        letter-spacing: 0;
-    }
-}
-
-@media (max-width: 768px) {
+    /* Navbar & Mobile Menu */
     .nav-container {
         padding: 10px 20px;
     }
 
+    .logo-img {
+        height: 40px; /* Scaled down for mobile */
+    }
+
     .nav-links {
         position: fixed;
-        right: -100%; /* Hides the menu off-screen */
+        right: -100%; /* Hidden off-screen */
         top: 0;
         flex-direction: column;
         background-color: rgba(10, 10, 10, 0.98);
-        width: 100%;
+        width: 80%; /* Slightly narrower for modern look */
         height: 100vh;
-        transition: 0.3s;
+        transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         justify-content: center;
-        text-align: center;
+        align-items: center;
         z-index: 999;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.5);
     }
 
     .nav-links.active {
-        right: 0; /* Slides menu in */
+        right: 0;
     }
 
     .nav-link {
-        margin: 20px 0;
-        font-size: 24px;
+        margin: 15px 0;
+        font-size: 20px;
+        letter-spacing: 1px;
     }
 
-    /* Hamburger Icon */
+    /* Hamburger Toggle Visibility */
     .menu-toggle {
         display: block;
         cursor: pointer;
@@ -711,11 +648,11 @@ body {
         height: 3px;
         margin: 5px auto;
         background-color: #ffffff;
-        transition: 0.3s;
+        transition: 0.3s ease;
     }
 }
 
-/* Hide hamburger on desktop */
+/* Ensure Toggle is hidden on Desktop */
 @media (min-width: 769px) {
     .menu-toggle {
         display: none;
