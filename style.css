@@ -652,19 +652,20 @@ body {
 
 @media (max-width: 768px) {
     .nav-container {
-        padding: 15px 20px; 
-    }
-
-    .nav-links {
-        gap: 15px; 
-    }
-
-    .nav-link {
-        font-size: 12px; 
+        padding: 10px 15px; 
+        flex-wrap: nowrap;
     }
 
     .logo-img {
-        height: 30px; 
+        height: 35px; 
+    }
+
+    .nav-links {
+        gap: 10px; 
+    }
+
+    .nav-link {
+        font-size: 11px; 
+        letter-spacing: 0;
     }
 }
-
